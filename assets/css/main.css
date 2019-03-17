@@ -72,6 +72,16 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* START My custom button style - Eric Hendrix */
+.myBtn{
+
+}
+
+.BGHeaderVideo{
+	width: 100%;
+}
+/* END My custom button style - Eric Hendrix */
+
 /* Basic */
 
 	html {
