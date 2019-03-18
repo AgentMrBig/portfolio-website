@@ -1,3 +1,8 @@
+# Link to my Deployed Portfolio
+https://nifty-lamport-7727bd.netlify.com/
+
+in 24hrs this will also link to my portfolio
+erichendrix.dev
 
 # Build A Portfolio Website
 
