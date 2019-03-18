@@ -72,15 +72,84 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* START My custom button style - Eric Hendrix */
+/* START My custom styles - Eric Hendrix */
 .myBtn{
 
 }
 
+
+
 .BGHeaderVideo{
 	width: 100%;
 }
-/* END My custom button style - Eric Hendrix */
+
+.bg-modal a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+.bg-modal{
+	width: 100%;
+	height: 4000px;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top:0px;
+	display: none;
+}
+
+.bg-modal i{
+	justify-content: right;
+}
+
+.modal-contents{
+	
+	background-color: white;
+	border-radius: 10px;
+	width: 50%;
+	height: 50%;
+	
+	
+	
+}
+
+.main-modal-content{
+	
+}
+
+.header-modal{
+	height: 30px;
+	
+	display: flex;
+	justify-content: flex-end;
+}
+
+.close-modal{
+	padding: 5px;
+}
+
+.ok-modal{
+
+}
+
+.footer-modal{
+	height: 20px;
+	
+	align-self: flex-start;
+}
+
+.main-modal-content{
+	width: 100%;
+	height: 250px;
+}
+
+.mousePosDebug{
+	border: solid 1px red;
+	height: 10%;
+	color: green;
+	display:flex;
+	justify-content: center;
+}
+
+/* END My custom styles - Eric Hendrix */
 
 /* Basic */
 

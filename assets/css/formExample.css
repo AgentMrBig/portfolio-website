@@ -1,0 +1,117 @@
+button{
+  
+}
+
+.mainCenterFlexContainer{
+  display:flex;
+  justify-content: center;
+}
+
+.centerFlex{
+  align-items: center;
+  justify-content: center;
+}
+
+.formCard{
+  border: solid 1px grey;
+  border-radius: 10px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 10px 5px 13px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 10px 5px 13px rgba(0,0,0,0.22);
+    box-shadow: 0px 10px 5px 13px rgba(0,0,0,0.22);
+  
+  background-color: rgb(115, 144, 168);
+}
+
+.formCard:hover{
+    
+  
+  
+    box-shadow: 0px 10px 20px 20px rgba(0,0,0,0.22);
+  
+  -webkit-transition: -webkit-box-shadow 1s linear;
+    -ms-transition: -moz-box-shadow 1s linear;
+    transition: box-shadow 1s linear;
+}
+
+.formCard:hover{
+  animation-name: shadow;
+  animation-duration: 4s;
+}
+
+.formCard fieldset{
+  border-radius: 5px;
+  border: none;
+  align-self: center;
+  margin: 10px;
+}
+
+.formCard input{
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+h1{
+    font-size: 35px;
+    
+}
+
+.formCard textarea{
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.flexItem{
+  margin:15px;
+  padding: 15px;  
+}
+
+.myForm{
+   display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+.myForm:hover{
+  background-color: rgba(115, 144, 168, 0.479);
+    -webkit-transition: background-color 2000ms linear;
+    -ms-transition: background-color 2000ms linear;
+    transition: background-color 2000ms linear;
+}
+
+.contactForm{
+    
+}
+
+
+/* The animation code */
+@keyframes shadow {
+  from {
+    -webkit-box-shadow: 0px 10px 5px 13px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 10px 5px 13px rgba(0,0,0,0.22);
+    box-shadow: 0px 10px 5px 13px rgba(0,0,0,0.22);  
+  }
+  to {
+    -webkit-box-shadow: 0px 10px 20px 20px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 10px 20px 20px rgba(0,0,0,0.22);
+    box-shadow: 0px 10px 20px 20px rgba(0,0,0,0.22);  
+  }
+}
+
+.myBtn{
+  background-color: #61accf; /* Green */
+  border: solid 1px grey;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+

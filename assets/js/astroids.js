@@ -1,10 +1,21 @@
+/*
+function load() {
+    var c = document.getElementById("c").getContext("2d");
+    c.fillStyle = "rgba(255, 200, 200, 1)";
+    c.fillRect(0, 0, c.canvas.width, c.canvas.height);
+}
+*/
 let ship;
 let asteroids = [];
 let lasers = [];
 
 // BEGIN setup
 function setup(){
-  createCanvas(windowWidth - 20, windowHeight -20);
+  //createCanvas(windowWidth - 20, windowHeight -20);
+  createCanvas(windowWidth - 20, 300);
+  canvas.parent('sketch-holder');
+
+ 
   ship = new Ship();
   for(var i = 0; i < 10; i++){
     asteroids.push(new Asteroid());
