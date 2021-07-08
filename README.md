@@ -1,3 +1,9 @@
+# Link to my Deployed Portfolio
+https://nifty-lamport-7727bd.netlify.com/
+
+in 24hrs this will also link to my portfolio
+erichendrix.dev
+
 # Build A Portfolio Website
 
 With all of the projects you will be working on here at Lambda School, you will need somewhere to house them!  There is no better opportunity to learn and show off your skills than a beautiful portfolio website.  
@@ -47,6 +53,12 @@ _ Watch this walk through video:  https://youtu.be/P2Y9W29kcjs
 		* Showcase projects you have worked on by providing some information and links to your git hub projects
 - [ ] Implement proper attribution: Attribution is required under the [creative commons license](https://html5up.net/license) that came with the website files you downloaded.  Be sure to provide attribution somewhere in the site.  The templates should already come with attribution found in most footers but double check to be sure.
 - [ ] Host your website for the world to see. Follow the instructions found here [https://pages.github.com/](https://pages.github.com/).  Once you have hosted your web page, share it for your peers to see.  This is not a small feat!
+
+# Link to my Deployed Portfolio
+https://nifty-lamport-7727bd.netlify.com/
+
+in 24hrs this will also link to my portfolio
+erichendrix.dev
 
 ## Stretch
 
